@@ -1,2 +1,6 @@
 .lake/
 build/
+
+# scripts/check_no_sorry.py is Python, so running the gate leaves bytecode beside it.
+__pycache__/
+*.pyc
